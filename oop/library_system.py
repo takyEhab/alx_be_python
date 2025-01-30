@@ -24,7 +24,7 @@ class Library:
             if book.__class__.__name__ == 'Book':
                 print(f"Book: {book.title} by {book.author}")
             elif book.__class__.__name__ == 'EBook':
-                print(f"E-Book: {book.title} by {book.author}, File Size: {book.file_size}")
+                print(f"E-Book: {book.title} by {book.author}, File Size: {book.file_size}KB")
             elif book.__class__.__name__ == 'PrintBook':
                 print(f"Print Book: {book.title} by {book.author}, Page Count: {book.page_count}")
             
